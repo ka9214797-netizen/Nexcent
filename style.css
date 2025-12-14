@@ -1,0 +1,26 @@
+:root{
+    --primary: #4CAF4F;
+}
+.grace{
+background-color: var(--primary)!important;
+outline: none !important;
+border: none !important;
+color: white !important;
+}
+.nav{
+    padding-left: 50px !important;
+    padding-right: 150px !important;
+}
+.intence{
+    gap: 850px !important;
+}
+.lesson{
+    color: #4D4D4D;
+}
+.color{
+    color: var(--primary)!important;
+}
+.led{
+    font-size: 15px !important;
+    color: #717171 !important;
+}
