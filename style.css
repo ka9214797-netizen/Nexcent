@@ -1,5 +1,9 @@
 :root{
     --primary: #4CAF4F;
+    --secondary: #4D4D4D;
+    --tertiory: #263238;
+    --text: #F5F7FA;
+    --email: #FFFFFF;
 }
 .grace{
 background-color: var(--primary)!important;
@@ -7,10 +11,10 @@ outline: none !important;
 border: none !important;
 color: white !important;
 }
-.nav{
-    padding-left: 50px !important;
-    padding-right: 150px !important;
-}
+/* .nav{
+     padding-left: 50px !important; 
+     padding-right: 150px !important; 
+} */
 .intence{
     gap: 850px !important;
 }
@@ -23,4 +27,26 @@ color: white !important;
 .led{
     font-size: 15px !important;
     color: #717171 !important;
+}
+.client{
+color: var(--secondary);  
+}
+.business{
+        color: var(--primary)!important;
+
+}
+.iconn{
+    background-color: #F5F7FA !important;
+}
+.lessonn{
+    color: var(--tertiory) !important;
+}
+.foot{
+    background-color: var(--tertiory) !important;
+}
+.text{
+    color: var(--text) !important;
+}
+.email{
+    background-color: var(--email);
 }
